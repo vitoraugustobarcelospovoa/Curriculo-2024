@@ -3,151 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="index.css" class="StyleSheet">
     <link rel="icon" href="" type="image/png">
     <title> Vitor Augusto Barcelos Póvoa de Carvalho</title>
 </head>
-<style>
-    
-    @font-face{ 
-        font-family: "Roboto";
-        src: url("Roboto/RobotoCondensed-Regular.ttf");
-    }
-    .Fixo {
-        height: 50px;
-        width: 100%;
-        text-align: center;
-        position: fixed;
-        background-color:#1a1f1e;
-        padding: 0;
-        margin: 0;
-        color: #ffffff;
-        font-style: normal;
-        font-weight: bold;
-        font-family: Roboto;
-        display: block;
-        box-shadow: 0 4px 6px #616161;
-        padding: 0 20px;
-        display: flex;
-        overflow-x: hidden;
-        justify-content: center;
-        z-index: 1000; 
-    }
-    .Fixo h1{
-        margin: 0;
-    }
-
-    .Informacoespessoais img{
-        margin-top: 20px;
-        width: 150px;
-        height: 200x;
-        margin-right: 30px;
-        border-radius: 5px;
-        border: 2px solid #53918a;
-    }
-    .Informacoespessoais{
-        padding-left: 200px;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        padding: 30px;
-        margin: 20px;
-    }
-   .menu{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-   }
-   .submenusobre{
-    display: none;
-    position: absolute;
-    top: 35px;
-    left: 0;
-    background-color: rgb(30, 30, 68);
-    padding: 10px 0;
-    border-radius: 5px;
-   }
-   header nav ul li a{
-    align-items: center;
-    text-align: center;
-    margin-right: 10px;
-    color: #ffffff;
-    text-decoration: none;
-   }
-   header nav ul li a:hover{
-    color: #c8d6bf;
-   }
-
-body{
-    align-items: center;
-    padding: 0;
-    margin: 0;
-    font-weight: bold;
-    font-family: Roboto;
-    background-color: #f3f0d8;
-   box-sizing:border-box
-}
-.Idiomas{
-    box-shadow: 0 -4px 6px #616161;
-    width: 100%;
-    height: auto;
-    padding-top: 15px;
-   border-collapse: collapse;
-    margin: 0px;
-}
-.Sobre{
-    box-shadow: 0 -4px 6px #616161;
-    width: 100%;
-    height: auto;
-    padding-top: 15px;
-
-    margin: 0px;
-}
-.Contato{
-    box-shadow: 0 -4px 6px #616161;
-    width: 100%;
-    height: auto;
-    padding-top: 15px;
-
-    margin: 0px;
-}
-.Titulo{
-    padding-left: 2%;
-    color: #106370;
-}
-.Subtitulo{
-    padding-left: 45px;
-    color: #8f6a4e;
-    margin: 5px;
-}
-.lateral{
-    text-align: left;
-}
-.conteudo{
-    margin-top: 0;
-    padding-left: 70px;
-}
-.formatacaocontato{
-    display: flex;
-}
-footer{
-    box-shadow: 0 -4px 6px #616161;
-    overflow-x: hidden;
-    position: relative;
-    background-color: #1a1f1e;
-    width: 100%;
-    margin: 0;
-    font-weight: bold;
-    font-family: Roboto;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-}
-.tamanhocontato{
-    width: 50%;
-}
-</style>
 <header class="Fixo">
    <nav class="menu">
     <ul class="menu">
@@ -176,21 +35,29 @@ footer{
     </div>
     <div class="Sobre" id="about">
         <h2 class="Titulo">Objetivo</h2>
-        <p class="conteudo">Meu objetivo é aperfeiçoar mais meu conhecimento na área, como aprender e desenvolver coisas novas.</p>
+        <p class="conteudo">Meu objetivo é aperfeiçoar mais meu conhecimento na área, como aprender e desenvolver melhor minhas habilidades.</p>
     </div>
     <div class="Sobre" id="proficional">
         <h2 class="Titulo">Especiência Profissional</h2>
-        <p class="conteudo">• Binários Informatica - 1 mês (Manutenção de Computadores)</p>
+        <h3 class="Subtitulo">• 12/2022 - 01/2023 - Binários Informática</h3>
+        <p class="conteudo" style="margin-bottom: 0;">Cargo: Manutenção de Computadores</p>
+        <p class="conteudo" >Principal Atividade: Analisar, Testar e realizar as devidas manutenções em maquinas.</p>
+        <h3 class="Subtitulo">• 06/2023 - Atual - Via Barcelos</h3>
+        <p class="conteudo" style="margin-bottom: 0;">Cargo: Auxiliar Financeiro</p>
+        <p class="conteudo" >Principal Atividade: Realizar pagamento de Funcionários, Gerenciar pagamentos.</p>
     </div>
     <div class="Idiomas" id="idiomas">
         <h2 class="Titulo">Escolaridade/Idiomas</h2>
         <h3 class="Subtitulo">• Inglês </h3>
         <ul class="conteudo">
-            <li>2 anos - Imepac Centro Universitário</li>
-            <li>2 anos - Imepac Centro Universitário</li>
-            <a href="Hugo/HTML/curriculum.html">Aqui tem um HTML de verdade</a>
+            <li>Finalizado na parte de Escrita - Imepac Centro Universitário 2021</li>
+            <li>Conversação - SpeakFaster</li>
         </ul>
         <h3 class="Subtitulo">• Cursos</h3>
+        <ul class="conteudo">
+            <li>Rede e Manutenção de Computadores - Finalizado People 2022</li>
+            <li>Analise e desenvolvmento de Sistemas - Imepac Centro Universitário 12/2023 - Atual</li>
+        </ul>
     </div>
     <div class="Contato" id="contact">
         <h2 class="Titulo">Contato</h2>
@@ -206,7 +73,7 @@ footer{
                 <h3 class="Subtitulo">
                     E-mail: 
                 </h3>
-                <h4 class="conteudo">vitor.carvalho@aluno.imepac.edu.br</h4>
+                <h4 class="conteudo" style="padding-left: 0; padding-top: 7px;">vitor.carvalho@aluno.imepac.edu.br</h4>
             </div>
         </div>
 

@@ -1,0 +1,210 @@
+  
+    @font-face{ 
+        font-family: "Roboto";
+        src: url("Roboto/RobotoCondensed-Regular.ttf");
+    }
+    .Fixo {
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        background-color:#1a1f1e;
+        padding: 0;
+        margin: 0;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: bold;
+        font-family: Roboto;
+        display: block;
+        box-shadow: 0 4px 6px #616161;
+        padding: 0 20px;
+        display: flex;
+        overflow-x: hidden;
+        justify-content: center;
+        z-index: 1000; 
+    }
+    .Fixo h1{
+        margin: 0;
+    }
+
+    .Informacoespessoais img{
+        margin-top: 20px;
+        width: 150px;
+        height: 200x;
+        margin-right: 30px;
+        border-radius: 5px;
+        border: 2px solid #53918a;
+    }
+    .Informacoespessoais{
+        padding-left: 200px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        margin: 20px;
+    }
+   .menu{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+   }
+   .submenusobre{
+    display: none;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    background-color: rgb(30, 30, 68);
+    padding: 10px 0;
+    border-radius: 5px;
+   }
+   header nav ul li a{
+    align-items: center;
+    text-align: center;
+    margin-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+   }
+   header nav ul li a:hover{
+    color: #c8d6bf;
+   }
+
+body{
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: Roboto;
+    background-color: #f3f0d8;
+   box-sizing:border-box
+}
+.Idiomas{
+    box-shadow: 0 -4px 6px #616161;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+   border-collapse: collapse;
+    margin: 0px;
+}
+.Sobre{
+    box-shadow: 0 -4px 6px #616161;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+
+    margin: 0px;
+}
+.Contato{
+    box-shadow: 0 -4px 6px #616161;
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+
+    margin: 0px;
+}
+.Titulo{
+    padding-left: 2%;
+    color: #106370;
+}
+.Subtitulo{
+    padding-left: 45px;
+    color: #8f6a4e;
+    margin: 5px;
+}
+.lateral{
+    text-align: left;
+}
+.conteudo{
+    margin-top: 0;
+    padding-left: 70px;
+}
+.formatacaocontato{
+    display: flex;
+}
+footer{
+    box-shadow: 0 -4px 6px #616161;
+    overflow-x: hidden;
+    position: relative;
+    background-color: #1a1f1e;
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+    font-family: Roboto;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+}
+.tamanhocontato{
+    width: 30%;
+}
+@media (max-width: 768px) {
+}
+body{
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: Roboto;
+    background-color: #f3f0d8;
+    box-sizing:border-box;
+}
+.Fixo {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color:#1a1f1e;
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Roboto;
+    display: block;
+    box-shadow: 0 4px 6px #616161;
+    padding: 0 20px;
+    display: flex;
+    overflow-x: hidden;
+    justify-content: center;
+    z-index: 1000; 
+}
+.Fixo h1{
+    margin: 0;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+}
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    color: white;
+}
+#menu-toggle {
+    display: none;
+}
+#menu-toggle:checked + ul {
+    display: block;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+header nav ul li {
+    margin: 0 10px;
+}
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: #c8d6bf;
+}
