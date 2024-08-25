@@ -218,6 +218,8 @@ header nav ul li a:hover {
 @media screen and (max-width: 768px) {
     .number{
         margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 7PX;
         padding-left: 7px;
         width: auto;
     }
@@ -257,8 +259,11 @@ header nav ul li a:hover {
         padding-left: 200px;
         align-items: center;
         text-align: center;
-        padding: 30px;
+        padding: 0px;
         margin: 20px;
+    }
+    .Informacoespessoais h1{
+        font-size: 24px;
     }
 
     .menu {
@@ -297,7 +302,7 @@ header nav ul li a:hover {
         color: #c8d6bf;
     }
     .tamanhocontato{
-        width: 50%;
+        width: 100%;
         display: flex;
     }
     .formatacaocontato{
@@ -305,6 +310,36 @@ header nav ul li a:hover {
     }
     .email{
 display: flex;
+    }
+    .conteudo{
+        margin-top: 0;
+        padding-left: 60px;
+    }
+    .Titulo{
+        padding-left: 2%;
+        color: #106370;
+    }
+    .Subtitulo{
+        padding-left: 25px;
+        color: #8f6a4e;
+        margin: 5px;
+    }
+    .Informacoespessoais img{
+        margin-top: 20px;
+        width: 150px;
+        height: 200x;
+        margin-right: 30px;
+        border-radius: 5px;
+        border: 2px solid #53918a;
+    }
+    .Informacoespessoais{
+       
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+        margin: 20px;
     }
    
 }
